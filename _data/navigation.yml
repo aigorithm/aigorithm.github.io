@@ -1,10 +1,41 @@
-- title: خانه
-  url: "/"
+- title: مقالات آموزشی
+  url: "/blog/"
   side: right
+  dropdown:
+  - title: "آرشیو مقالات"
+    url: "/blog/archive/"
 
-- title: نخستین گام
-  url: "/getting-started/"
+- title: هوش مصنوعی
+  url: "/documentation/"
   side: right
+  dropdown:
+  - title: "الگوریتم‌های کلاسیک"
+    url: "/changelog/"
+  - title: "الگوریتم‌‌های کلاسیفیشن"
+    url: "/roadmap/"
+  - title: "الگوریتم‌‌های پردازش موازی"
+    url: "/roadmap/"
+  - title: "آنالیز الگوریتم"
+    url: "/roadmap/"
+
+- title: "دیپ لرنینگ"
+  url: "/headers/"
+  side: right
+  dropdown:
+  - title: "شبکه‌های عصبی مصنوعی"
+    url: "/design/header-full-width-image/"
+  - title: "شبکه های عصبی عمیق"
+    url: "/design/header-image-pattern/"
+  - title: "پردازش زبان‌های طبیعی"
+    url: "/design/header-image-color/"
+  - title: "پردازش تصویر"
+    url: "/design/header-logo-only/"
+  - title: "سیستم‌های پیشنهاد تصمیم"
+    url: "/design/header-with-text/"
+  - title: "بیوانفورماتیک"
+    url: "/design/no-header/"
+  - title: "تانسورفلو"
+    url: "/design/no-header-but-image/"
 
 - title: "بیگ دیتا"
   url: "/design/"
@@ -31,44 +62,16 @@
   - title: "پیگ"
     url: "/design/portfolio/"
 
-- title: "دیپ لرنینگ"
-  url: "/headers/"
-  side: right
-  dropdown:
-  - title: "شبکه‌های عصبی مصنوعی"
-    url: "/design/header-full-width-image/"
-  - title: "شبکه های عصبی عمیق"
-    url: "/design/header-image-pattern/"
-  - title: "پردازش زبان‌های طبیعی"
-    url: "/design/header-image-color/"
-  - title: "پردازش تصویر"
-    url: "/design/header-logo-only/"
-  - title: "سیستم‌های پیشنهاد تصمیم"
-    url: "/design/header-with-text/"
-  - title: "بیوانفورماتیک"
-    url: "/design/no-header/"
-  - title: "تانسورفلو"
-    url: "/design/no-header-but-image/"
 
-- title: هوش مصنوعی
-  url: "/documentation/"
-  side: right
-  dropdown:
-  - title: "الگوریتم‌های کلاسیک"
-    url: "/changelog/"
-  - title: "الگوریتم‌‌های کلاسیفیشن"
-    url: "/roadmap/"
-  - title: "الگوریتم‌‌های پردازش موازی"
-    url: "/roadmap/"
-  - title: "آنالیز الگوریتم"
-    url: "/roadmap/"
 
-- title: مقالات آموزشی
-  url: "/blog/"
+- title: نخستین گام
+  url: "/getting-started/"
   side: right
-  dropdown:
-  - title: "آرشیو مقالات"
-    url: "/blog/archive/"
+
+- title: خانه
+  url: "/"
+  side: right
+
 
 - title: "جستجو"
   url: "/search/"
