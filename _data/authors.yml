@@ -6,8 +6,9 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 ghaseminya: # replace this with your info
-  name: "قاسمی‌نیا"
+  name: "ghaseminya"
   siterole: "J2EE developer, J2SE developer"
   uri: http://ghaseminya.ir/
-  email:ghaseminya@gmail.com
+  email: ghaseminya@gmail.com
+  twitter: "@khazeshgar"
 # you can add more authors here
