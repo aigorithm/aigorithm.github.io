@@ -23,25 +23,13 @@
 	<title>{{ title }}</title>
 
     <link rel="stylesheet" type="text/css" href="{{ url }}/assets/css/styles_feeling_responsive.css">
-
+	<link rel="stylesheet" type="text/css" href="{{ url }}/assets/fonts/yekan.css">
   {% if site.asciidoctor-enabled == true %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
   {% endif %}
 
 	<script src="{{ url }}/assets/js/modernizr.min.js"></script>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-	<script>
-		WebFont.load({
-			google: {
-				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
-			}
-		});
-	</script>
-
-	<noscript>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
-	</noscript>
 
 
 	<!-- Search Engine Optimization -->
@@ -55,26 +43,6 @@
 	<link rel="canonical" href="{{ url }}{{ page.url }}">
 
 
-	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="{{ title }}">
-	<meta property="og:description" content="{{ description }}">
-	<meta property="og:url" content="{{ url }}{{ page.url }}">
-	<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}">
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="{{ site.title }}">
-	{% if page.image.title %}<meta property="og:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
-	{% if site.socialmedia.facebook %}<meta property="article:author" content="https://www.facebook.com/{{ site.socialmedia.facebook }}">{% endif %}
-
-
-	{% if site.socialmedia.twitter %}
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="{{ site.socialmedia.twitter }}">
-	<meta name="twitter:creator" content="{{ site.socialmedia.twitter }}">
-	<meta name="twitter:title" content="{{ title }}">
-	<meta name="twitter:description" content="{{ description }}">
-	{% if page.image.title %}<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
-	{% endif %}
 
 	<link type="text/plain" rel="author" href="{{ url}}/humans.txt">
 

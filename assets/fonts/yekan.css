@@ -1,0 +1,9 @@
+
+@font-face {
+     font-family: 'B Yekan';
+     src: local('☺'),
+     local('B Yekan'),
+     url('yekan.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
