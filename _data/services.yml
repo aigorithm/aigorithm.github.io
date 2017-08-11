@@ -1,17 +1,17 @@
-- menu_name: "Services"
+- menu_name: "لینک‌ها"
 
-- name: "Contact"
+- name: "تماس"
   url: "/contact/"
-  title: "Contact"
+  title: "تماس"
 
-- name: "RSS"
+- name: "آراس‌اس"
   url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
+  title: "آر اس‌ اس"
 
-- name: "Atom"
+- name: "فید"
   url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+  title: "فید"
 
-- name: "sitemap.xml"
+- name: "نقشه سایت"
   url: "/sitemap.xml"
-  title: "Sitemap for Google Webmaster Tools"
+  title: "نقشه"

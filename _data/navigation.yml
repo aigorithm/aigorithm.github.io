@@ -1,75 +1,79 @@
-- title: Start
+- title: خانه
   url: "/"
-  side: left
+  side: right
 
-- title: Getting Started
+- title: نخستین گام
   url: "/getting-started/"
-  side: left
+  side: right
 
-- title: "Templates"
+- title: "بیگ دیتا"
   url: "/design/"
-  side: left
+  side: right
   dropdown:
-  - title: "Grid & Colors"
+  - title: "هدوپ"
     url: "/design/grid/"
-  - title: "Typography"
+  - title: "اسپارک"
     url: "/design/typography/typography/"
-  - title: "Page/Post"
+  - title: "اینترنت اشیا"
     url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
+  - title: "کلودرا"
     url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
+  - title: "راپیدماینر"
+    url: "/design/post-right-sidebar/"
+  - title: "اراکل دیتاماینینگ"
     url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
+  - title: "تابلو"
     url: "/blog/"
-  - title: "Video"
+  - title: "مونگو‌دی‌بی"
     url: "/design/video/"
-  - title: "Gallery"
+  - title: "هایو"
     url: "/design/gallery/"
-  - title: "Portfolio"
+  - title: "پیگ"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
+- title: "دیپ لرنینگ"
   url: "/headers/"
-  side: left
+  side: right
   dropdown:
-  - title: "Header with Full-Width-Image"
+  - title: "شبکه‌های عصبی مصنوعی"
     url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
+  - title: "شبکه های عصبی عمیق"
     url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
+  - title: "پردازش زبان‌های طبیعی"
     url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
+  - title: "پردازش تصویر"
     url: "/design/header-logo-only/"
-  - title: "Header With Text"
+  - title: "سیستم‌های پیشنهاد تصمیم"
     url: "/design/header-with-text/"
-  - title: "No Header"
+  - title: "بیوانفورماتیک"
     url: "/design/no-header/"
-  - title: "No Header but Image"
+  - title: "تانسورفلو"
     url: "/design/no-header-but-image/"
 
-- title: Documentation
+- title: هوش مصنوعی
   url: "/documentation/"
-  side: left
+  side: right
   dropdown:
-  - title: "Changelog"
+  - title: "الگوریتم‌های کلاسیک"
     url: "/changelog/"
-  - title: "Roadmap"
+  - title: "الگوریتم‌‌های کلاسیفیشن"
+    url: "/roadmap/"
+  - title: "الگوریتم‌‌های پردازش موازی"
+    url: "/roadmap/"
+  - title: "آنالیز الگوریتم"
     url: "/roadmap/"
 
-- title: Blog
+- title: مقالات آموزشی
   url: "/blog/"
-  side: left
+  side: right
   dropdown:
-  - title: "Blog Archive"
+  - title: "آرشیو مقالات"
     url: "/blog/archive/"
 
-- title: "Search"
+- title: "جستجو"
   url: "/search/"
-  side: right
+  side: left
 
-- title: "Contact"
+- title: "تماس"
   url: "/contact/"
-  side: right
+  side: left
